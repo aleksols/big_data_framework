@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Line Plot",
+    "strategy": "LinePlotter",
+    "subject": "BigData",
+    "arguments": [
+      {
+        "type": "csv",
+        "description": "The csv file containing the data to be plotted"
+      }
+    ]
+  }
+]
