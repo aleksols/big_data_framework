@@ -1,0 +1,23 @@
+{
+  "name": "Scatter Plot",
+  "strategy": "ScatterPlotter",
+  "subject": "BigData",
+  "description": "Plots a scatter plot of the specified csv",
+  "arguments": [
+    {
+      "name": "x",
+      "type": "column",
+      "description": "The column to be displayed on the x axis"
+    },
+    {
+      "name": "y",
+      "type": "column",
+      "description": "The column to be displayed on the y axis"
+    }
+  ],
+  "num_columns": 2,
+  "result": {
+    "type": "png",
+    "description": "The requested scatter plot"
+  }
+}

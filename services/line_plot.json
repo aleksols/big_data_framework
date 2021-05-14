@@ -1,0 +1,17 @@
+{
+  "name": "Line Plot",
+  "strategy": "LinePlotter",
+  "subject": "BigData",
+  "num_columns": 2,
+  "description": "Plots a line plot of the specified csv",
+  "arguments": [
+    {
+      "type": "column",
+      "description": "Select column for x axis"
+    },
+    {
+      "type": "column",
+      "description": "Select column for y axis"
+    }
+  ]
+}

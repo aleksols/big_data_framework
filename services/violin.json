@@ -1,0 +1,33 @@
+{
+  "name": "Violin Plot",
+  "strategy": "ViolinPlotter",
+  "subject": "BigData",
+  "description": "Plots a violin plot of the specified csv",
+  "arguments": [
+    {
+      "name": "col0",
+      "type": "column",
+      "description": "Name of column to be visualized"
+    },
+    {
+      "name": "col1",
+      "type": "column",
+      "description": "Name of column to be visualized"
+    },
+    {
+      "name": "col3",
+      "type": "column",
+      "description": "Name of column to be visualized"
+    },
+    {
+      "name": "col4",
+      "type": "column",
+      "description": "Name of column to be visualized"
+    }
+  ],
+  "num_columns": 2,
+  "result": {
+    "type": "png",
+    "description": "The requested bar plot"
+  }
+}
